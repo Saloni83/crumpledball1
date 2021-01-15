@@ -47,8 +47,8 @@ function draw() {
 function keyPressed(){
   if (keyCode === UP_ARROW && gameState === "play") {
     Matter.Body.applyForce(paper.body, paper.body.position, {
-      x: 8,
-      y: -9
+      x: 7,
+      y: -11
     });
   }
 }
